@@ -1,8 +1,8 @@
 module SlackSpotifybot
     module Commands
         class RandomList < SlackRubyBot::Commands::Base
-            command 'song' do |client,data, _match|
-                client.say(channel: data.channel, text:'Choose a song')
+            command 'say_hi' do |client,data, _match|
+                client.say(channel: data.channel, text:'Hi! fucker!')
             end
         end
     end
