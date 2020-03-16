@@ -1,14 +1,13 @@
 module SlackSpotifybot
     module Commands
-        class RandomList < SlackRubyBot::Commands::Base
+        class Search < SlackRubyBot::Commands::Base
             command 'say_hi' do |client,data, _match|
-                client.say(channel: data.channel, text:)
+                client.say(channel: data.channel, text: "hellow")
             end
-        end
-
-        class UserList < SlackRubyBot::Commands::Base
-            command 'get_player_list' do |client,data,_match|
-                client.say()
+            command 'search_artist' do | client,data, _match|
+                search = ApiSpotify::Search.new(ENV [SPOTIFY_AUTH_TOKEN])
+                result = search.artist(data.channel)
+                client.say(channel: data.channel, text: "Check! #{result}" )
             end
         end
     end
