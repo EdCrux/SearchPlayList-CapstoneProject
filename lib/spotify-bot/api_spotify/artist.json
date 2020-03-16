@@ -1,0 +1,177 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=dream+theater&type=artist&offset=0&limit=20",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+        },
+        "followers": {
+          "href": null,
+          "total": 996388
+        },
+        "genres": [
+          "metal",
+          "power metal",
+          "progressive metal",
+          "progressive rock",
+          "rock"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2aaLAng2L2aWD2FClzwiep",
+        "id": "2aaLAng2L2aWD2FClzwiep",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/7a45b5792bde17098a0037509018f7f5bbfc6a99",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/4dd1dfaf7eb5d9140d92ebd9e087a98513a2ce71",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/d51a2bb99d8f4b4f9ef55a0d00ddaed92cf35680",
+            "width": 160
+          }
+        ],
+        "name": "Dream Theater",
+        "popularity": 65,
+        "type": "artist",
+        "uri": "spotify:artist:2aaLAng2L2aWD2FClzwiep"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/074fz0okn3TnQpjnnyJruc"
+        },
+        "followers": {
+          "href": null,
+          "total": 256
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/074fz0okn3TnQpjnnyJruc",
+        "id": "074fz0okn3TnQpjnnyJruc",
+        "images": [
+
+        ],
+        "name": "Dream Theater",
+        "popularity": 13,
+        "type": "artist",
+        "uri": "spotify:artist:074fz0okn3TnQpjnnyJruc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0gOJUQuSryDpEsIUIJ8lCy"
+        },
+        "followers": {
+          "href": null,
+          "total": 45
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/0gOJUQuSryDpEsIUIJ8lCy",
+        "id": "0gOJUQuSryDpEsIUIJ8lCy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2732fdf40705821980e6179c8aa",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e022fdf40705821980e6179c8aa",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048512fdf40705821980e6179c8aa",
+            "width": 64
+          }
+        ],
+        "name": "Yidakivoice's Dream Sound Theater",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0gOJUQuSryDpEsIUIJ8lCy"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1OyEKL25pgx3nrfRQol4wA"
+        },
+        "followers": {
+          "href": null,
+          "total": 39
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/1OyEKL25pgx3nrfRQol4wA",
+        "id": "1OyEKL25pgx3nrfRQol4wA",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27366f70a611abc1e4905dd78e9",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0266f70a611abc1e4905dd78e9",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485166f70a611abc1e4905dd78e9",
+            "width": 64
+          }
+        ],
+        "name": "Theater of the Dreams",
+        "popularity": 13,
+        "type": "artist",
+        "uri": "spotify:artist:1OyEKL25pgx3nrfRQol4wA"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4O9DuHAUj2osrxGotNstEv"
+        },
+        "followers": {
+          "href": null,
+          "total": 390
+        },
+        "genres": [
+
+        ],
+        "href": "https://api.spotify.com/v1/artists/4O9DuHAUj2osrxGotNstEv",
+        "id": "4O9DuHAUj2osrxGotNstEv",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27326897631effcd935b286d226",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0226897631effcd935b286d226",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485126897631effcd935b286d226",
+            "width": 64
+          }
+        ],
+        "name": "Symphonic Theater Of Dreams",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:4O9DuHAUj2osrxGotNstEv"
+      }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 7
+  }
+}

@@ -1,5 +1,6 @@
 require 'json'
 require 'open-uri'
+require 'http'
 
 module SlackSpotifybot
     module ApiSpotify
@@ -7,32 +8,36 @@ module SlackSpotifybot
             attr_accessor :your_id
 
             def initialize(your_id)
-                @your_id = your_id
+                self.your_id = your_id
             end
 
             def artist(name)
-                name.transform_name
-                rc = HTTP.get('https://api.spotify.com/v1/search', params:{
-                    q:name,
-                    type:'track,artist'
-                },
-                headers:{
-                    Authorizatiion:"#{Bearer @your_id}"
-                })
-                response = JSON.parse(rc.body)
-                return response['artist']['items'][0]["name"],response['artists']['items'][0]['images'][1]['url'],response['items'][0]['external_urls']['spotify']    
+                response = get_http(name,'artist')
+                response
             end
 
             def song(name)
-                #search for a song 
+                response = get_http(name,'track')
+                response
+            end
+            
+            def transform_name(name)
+                n = name.split('')
+                n.map { |l| l.replace('%') if l == ' ' }
+                n.join('')
             end
 
-            def transform_name
-                if valide(name)
-                  arr = split('')
-                  arr.map { |l| l.replace('%') if l == ' ' }
-                  arr.join('')
-                end
+            def get_http(name,type)
+                transform_name(name)
+                rc = HTTP.get('https://api.spotify.com/v1/search', params:{
+                    q:name,
+                    type:type,
+                  },
+                  headers:{
+                      Authorization:" Bearer #{self.your_id}"
+                })
+                response = JSON.parse(rc.body)
+                response
             end
         end
     end
