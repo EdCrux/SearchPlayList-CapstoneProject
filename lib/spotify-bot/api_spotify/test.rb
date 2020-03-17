@@ -5,4 +5,3 @@ token = 'BQCHEeP4EDWp9FPUdH0AdJcwbmZkhWg2ZO6f5meW9U1eLGBeOU2rxnxbYJXkWGxPIEjaWUD
 search_art = SlackSpotifybot::ApiSpotify::Search.new(token)
 search_art.artist('dream theater')
 search_art.song('this is the life')
-
