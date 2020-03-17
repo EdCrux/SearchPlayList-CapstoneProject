@@ -4,7 +4,8 @@ Capstone project as part of microverse curriculum, using API's
 
 > Making a slack's bot that search for sogn and artist in spotify data base
 
-<a href="https://www.loom.com/share/186bad93bee0411085605e8505626e94"> <p>17 March, 2020 - Loom Recording - Watch Video</p> <img style="width:100%;" src="https://cdn.loom.com/sessions/thumbnails/186bad93bee0411085605e8505626e94-with-play.gif"> </a>
+<a href="https://www.loom.com/share/186bad93bee0411085605e8505626e94" width="100%"></a>
+
 
 > Instructions
 
@@ -13,7 +14,7 @@ Capstone project as part of microverse curriculum, using API's
 - Create an account in spotify and get an ID [here](https://developer.spotify.com/console/)
 - Grab an Authentication token [here](https://developer.spotify.com/console/get-search-item/)
 
-<img src="/images/geToken.jpg" width="100%">
+<img src="/images/geToken.JPG" width="100%">
 
 - Save into this repo an .env file with the ID
 
