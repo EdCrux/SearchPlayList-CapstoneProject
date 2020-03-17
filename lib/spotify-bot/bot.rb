@@ -10,10 +10,16 @@ module SlackSpotifybot
                 long_desc 'Returns hi'
             end
 
-            command :search_artist do
-                title 'Search any artist from Spotify'
-                desc 'Returns the results that you search'
+            command :search_artist   do
+                title 'search'
+                desc 'Returns the artist you select'
                 long_desc 'Returns the artist related to your search'
+            end
+
+            command :search_song do
+                title 'search_song'
+                desc 'Returns the songs that match with your search'
+                long_desc 'Returns the posibles songs'
             end
         end
     end
