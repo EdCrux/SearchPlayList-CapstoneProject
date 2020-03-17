@@ -1,4 +1,4 @@
-# Mercurysearch-CapstoneProject
+# MercurySearch-CapstoneProject
 
 Capstone project as part of microverse curriculum, using API's
 
@@ -13,7 +13,7 @@ Capstone project as part of microverse curriculum, using API's
 - Create an account in spotify and get an ID [here](https://developer.spotify.com/console/)
 - Grab an Authentication token [here](https://developer.spotify.com/console/get-search-item/)
 
-<img src="geToken.jpg" width="100%">
+<img src="/images/geToken.jpg" width="100%">
 
 - Save into this repo an .env file with the ID
 
