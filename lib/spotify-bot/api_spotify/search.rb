@@ -13,12 +13,19 @@ module SlackSpotifybot
 
             def artist(name)
                 response = get_http(name,'artist')
-                response
+                return response['artists']['items'][0]['name'],
+                response['artists']['items'][0]['external_urls']['spotify'],
+                response['artists']['items'][0]['images'][1]['url']
             end
 
             def song(name)
+                temp_arr = []
                 response = get_http(name,'track')
-                response
+                response['tracks']['items'].each do |item|
+                  temp_arr <<  item['name'] 
+                  temp_arr <<  item['external_urls']['spotify']
+                end
+                temp_arr
             end
             
             def transform_name(name)
@@ -32,6 +39,7 @@ module SlackSpotifybot
                 rc = HTTP.get('https://api.spotify.com/v1/search', params:{
                     q:name,
                     type:type,
+                    limit:'5'
                   },
                   headers:{
                       Authorization:" Bearer #{self.your_id}"
