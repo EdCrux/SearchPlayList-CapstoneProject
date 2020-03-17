@@ -1,7 +1,0 @@
-require_relative 'search'
-
-token = 'BQCHEeP4EDWp9FPUdH0AdJcwbmZkhWg2ZO6f5meW9U1eLGBeOU2rxnxbYJXkWGxPIEjaWUDKxxrc5hC9WFdw7MeQxh5JRWvSG1h8XRowB3LGwrA47pQxoWJc5Y5kfbEmO9-LKvKCfabBZ5MVJgieuLxl0SDyPEgcuNrEpsRal9deFpUmYQMg8-WotncZSASOg3f9kgBrLYCTJIKBfC7JglffNiW2u18ejfEC7nKjFRwxl3bKmsvKHRwLdXamHYe-6Z6rbhytvOFnQIr4xfQYBzWEda1BH_WXag'
-
-search_art = SlackSpotifybot::ApiSpotify::Search.new(token)
-search_art.artist('dream theater')
-search_art.song('this is the life')
