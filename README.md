@@ -4,7 +4,7 @@ Capstone project as part of microverse curriculum, using API's
 
 > Making a slack's bot that search for sogn and artist in spotify data base
 
-<a href="https://www.loom.com/share/186bad93bee0411085605e8505626e94" width="100%"></a>
+<a href="https://www.loom.com/share/186bad93bee0411085605e8505626e94"> <p>17 March, 2020 - Loom Recording - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/186bad93bee0411085605e8505626e94-with-play.gif"> </a>
 
 
 > Instructions
