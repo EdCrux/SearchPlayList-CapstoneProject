@@ -29,7 +29,7 @@ module SlackSpotifybot
         end
         temp_arr
       end
-
+    
       def transform_name(name)
         n = name.split('')
         n.map { |l| l.replace('%') if l == ' ' }
