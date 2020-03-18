@@ -5,10 +5,10 @@ require 'http'
 module SlackSpotifybot
   module ApiSpotify
     class Search
-      attr_accessor :your_id
+      attr_reader :your_id
 
       def initialize(your_id)
-        self.your_id = your_id
+        @your_id = your_id
       end
 
       def artist(name)
@@ -29,7 +29,9 @@ module SlackSpotifybot
         end
         temp_arr
       end
-    
+
+      private
+
       def transform_name(name)
         n = name.split('')
         n.map { |l| l.replace('%') if l == ' ' }
@@ -44,7 +46,7 @@ module SlackSpotifybot
                         limit: '5'
                       },
                                                            headers: {
-                                                             Authorization: " Bearer #{your_id}"
+                                                             Authorization: " Bearer #{@your_id}"
                                                            })
         response = JSON.parse(rc.body)
         response
