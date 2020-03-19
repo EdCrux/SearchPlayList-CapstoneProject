@@ -2,7 +2,7 @@
 
 Capstone project as part of microverse curriculum, creating a bot using slack API and spotify API.
 
-<img src="/images/s.gif" width="100%">
+<img src="/images/Comp-1.gif" width="100%">
 
 > Slack's bot that search for songs and artists into spotify data base.
 
