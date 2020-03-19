@@ -1,7 +1,7 @@
 module SlackSpotifybot
   class Bot < SlackRubyBot::Bot
     help do
-      title 'Mercury Spotify searcher'
+      title 'Mercury Spotify Searcher'
       desc 'This bot searches by song and by artist into Spotify'
 
       command :say_hi do

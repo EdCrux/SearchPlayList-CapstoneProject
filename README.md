@@ -2,30 +2,26 @@
 
 Capstone project as part of microverse curriculum, using API's
 
-> Making a slack's bot that search for songs and artists into spotify data base
+> Making a slack's bot that search for songs and artists into spotify data base.
 
-<a href="https://www.loom.com/share/186bad93bee0411085605e8505626e94"> <p>17 March, 2020 - Loom Recording - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/186bad93bee0411085605e8505626e94-with-play.gif"> </a>
-
-
-> Instructions
+## How to use
 
 - Create a custom space in slack and add a custom integration [addIntegration](https://eikovalabs.slack.com/apps/new/A0F7YS25R-bots)
-
 - Create an account in spotify and get an ID [here](https://developer.spotify.com/console/)
 - Grab an Authentication token [here](https://developer.spotify.com/console/get-search-item/)
 
-<img src="/images/geToken.JPG" width="100%">
+This video help as guide to grab the ID
+<a href="https://www.loom.com/share/5b9a4f63676b4ae6bdffb18f69d2bcca"> <p>Home | Spotify for Developers - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5b9a4f63676b4ae6bdffb18f69d2bcca-with-play.gif"> </a>
 
-- Save into this repo an .env file with the ID
+- Type in your terminal:
 
-`SLACK_API_TOKEN= <your slack token>`
-`SPOTIFY_API_TOKEN= <your spotify token`
+- `export SLACK_API_TOKEN= <your slack token>`
+- `export SPOTIFY_API_TOKEN= <your spotify token>`
 
-- In your terminal write `bundle install` to install all your gems 
-- For testing type : `foreman start`
+- In your terminal write `bundle install` to install all gems 
+- For turn on the server locally type : `foreman start`
 
 ## Built With
-
 - Ruby
 
 ## Authors
