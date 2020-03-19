@@ -1,0 +1,424 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spotify.com/v1/search?limit=5&q=pull%20me%20under&type=track
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - " Bearer BQC8X_6CUWOeu_pHBlSxKzifIZ7mTKsL42H34e7wuYNCQCXji8vzFXaqrRqW-1HIROOFWsDle6UowiX6GAMlvD_4BTgJpFr6Vvhz5B1DWnTfXN646wWtaUzynfe5N2pH9BXoSLIbLC2q9KA3_mww2atxi92QcOFys-gtI8UayN-AF0CCrF0K7OvtLqirYkD7SsWMctyCzvMKqYDAnqVGHyNpdkPEYqo3rQ5LWGKxNbEIjMcRo8YABvb1RSD2JdpDpEDI1InSV1SuqVnBlDCoNMpgOxCD0_ulHg"
+      Connection:
+      - close
+      Host:
+      - api.spotify.com
+      User-Agent:
+      - http.rb/4.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=7200
+      X-Robots-Tag:
+      - noindex, nofollow
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version,
+        X-Cloud-Trace-Context
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS, PUT, DELETE, PATCH
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Max-Age:
+      - '604800'
+      Content-Length:
+      - '18473'
+      Date:
+      - Tue, 17 Mar 2020 19:58:26 GMT
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - clear
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "tracks" : {
+            "href" : "https://api.spotify.com/v1/search?query=pull+me+under&type=track&offset=0&limit=5",
+            "items" : [ {
+              "album" : {
+                "album_type" : "album",
+                "artists" : [ {
+                  "external_urls" : {
+                    "spotify" : "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+                  },
+                  "href" : "https://api.spotify.com/v1/artists/2aaLAng2L2aWD2FClzwiep",
+                  "id" : "2aaLAng2L2aWD2FClzwiep",
+                  "name" : "Dream Theater",
+                  "type" : "artist",
+                  "uri" : "spotify:artist:2aaLAng2L2aWD2FClzwiep"
+                } ],
+                "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/2QgGoL5VSQhPHudTObS7zK"
+                },
+                "href" : "https://api.spotify.com/v1/albums/2QgGoL5VSQhPHudTObS7zK",
+                "id" : "2QgGoL5VSQhPHudTObS7zK",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/ab67616d0000b273f4d11b78efa76496f2acd618",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/ab67616d00001e02f4d11b78efa76496f2acd618",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/ab67616d00004851f4d11b78efa76496f2acd618",
+                  "width" : 64
+                } ],
+                "name" : "Images and Words",
+                "release_date" : "1992-06-30",
+                "release_date_precision" : "day",
+                "total_tracks" : 8,
+                "type" : "album",
+                "uri" : "spotify:album:2QgGoL5VSQhPHudTObS7zK"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+                },
+                "href" : "https://api.spotify.com/v1/artists/2aaLAng2L2aWD2FClzwiep",
+                "id" : "2aaLAng2L2aWD2FClzwiep",
+                "name" : "Dream Theater",
+                "type" : "artist",
+                "uri" : "spotify:artist:2aaLAng2L2aWD2FClzwiep"
+              } ],
+              "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+              "disc_number" : 1,
+              "duration_ms" : 493933,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USEE10180251"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/5CPXR6lDTvngxtmMZxnWmC"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/5CPXR6lDTvngxtmMZxnWmC",
+              "id" : "5CPXR6lDTvngxtmMZxnWmC",
+              "is_local" : false,
+              "name" : "Pull Me Under",
+              "popularity" : 59,
+              "preview_url" : "https://p.scdn.co/mp3-preview/4a65db5279bd31980b5986b9f9deef31f80009a8?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number" : 1,
+              "type" : "track",
+              "uri" : "spotify:track:5CPXR6lDTvngxtmMZxnWmC"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "artists" : [ {
+                  "external_urls" : {
+                    "spotify" : "https://open.spotify.com/artist/64eAZjkDzPIGbBuiANH78Y"
+                  },
+                  "href" : "https://api.spotify.com/v1/artists/64eAZjkDzPIGbBuiANH78Y",
+                  "id" : "64eAZjkDzPIGbBuiANH78Y",
+                  "name" : "If I Were You",
+                  "type" : "artist",
+                  "uri" : "spotify:artist:64eAZjkDzPIGbBuiANH78Y"
+                } ],
+                "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/3DeOa8jLurwsX2aKBeqHJa"
+                },
+                "href" : "https://api.spotify.com/v1/albums/3DeOa8jLurwsX2aKBeqHJa",
+                "id" : "3DeOa8jLurwsX2aKBeqHJa",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/ab67616d0000b273f6d8494aa6912791afdf6a9b",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/ab67616d00001e02f6d8494aa6912791afdf6a9b",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/ab67616d00004851f6d8494aa6912791afdf6a9b",
+                  "width" : 64
+                } ],
+                "name" : "Life After Death",
+                "release_date" : "2016-12-16",
+                "release_date_precision" : "day",
+                "total_tracks" : 8,
+                "type" : "album",
+                "uri" : "spotify:album:3DeOa8jLurwsX2aKBeqHJa"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/64eAZjkDzPIGbBuiANH78Y"
+                },
+                "href" : "https://api.spotify.com/v1/artists/64eAZjkDzPIGbBuiANH78Y",
+                "id" : "64eAZjkDzPIGbBuiANH78Y",
+                "name" : "If I Were You",
+                "type" : "artist",
+                "uri" : "spotify:artist:64eAZjkDzPIGbBuiANH78Y"
+              } ],
+              "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+              "disc_number" : 1,
+              "duration_ms" : 221453,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "ushm81682086"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/1s7EIVMVF4ANXFT26exE1A"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/1s7EIVMVF4ANXFT26exE1A",
+              "id" : "1s7EIVMVF4ANXFT26exE1A",
+              "is_local" : false,
+              "name" : "Pull Me Under",
+              "popularity" : 36,
+              "preview_url" : "https://p.scdn.co/mp3-preview/cb6d2eab1452deeeb7c58d6d00bd88d1466fa730?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number" : 4,
+              "type" : "track",
+              "uri" : "spotify:track:1s7EIVMVF4ANXFT26exE1A"
+            }, {
+              "album" : {
+                "album_type" : "compilation",
+                "artists" : [ {
+                  "external_urls" : {
+                    "spotify" : "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+                  },
+                  "href" : "https://api.spotify.com/v1/artists/2aaLAng2L2aWD2FClzwiep",
+                  "id" : "2aaLAng2L2aWD2FClzwiep",
+                  "name" : "Dream Theater",
+                  "type" : "artist",
+                  "uri" : "spotify:artist:2aaLAng2L2aWD2FClzwiep"
+                } ],
+                "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/6jZmSESlazZBmqucZlN3mP"
+                },
+                "href" : "https://api.spotify.com/v1/albums/6jZmSESlazZBmqucZlN3mP",
+                "id" : "6jZmSESlazZBmqucZlN3mP",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/ab67616d0000b27361eacadf859cb290a594030a",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/ab67616d00001e0261eacadf859cb290a594030a",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/ab67616d0000485161eacadf859cb290a594030a",
+                  "width" : 64
+                } ],
+                "name" : "Greatest Hit (...and 21 Other Pretty Cool Songs)",
+                "release_date" : "2008-03-28",
+                "release_date_precision" : "day",
+                "total_tracks" : 22,
+                "type" : "album",
+                "uri" : "spotify:album:6jZmSESlazZBmqucZlN3mP"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+                },
+                "href" : "https://api.spotify.com/v1/artists/2aaLAng2L2aWD2FClzwiep",
+                "id" : "2aaLAng2L2aWD2FClzwiep",
+                "name" : "Dream Theater",
+                "type" : "artist",
+                "uri" : "spotify:artist:2aaLAng2L2aWD2FClzwiep"
+              }, {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/7jdky1zPhnZzjqLy4OMK12"
+                },
+                "href" : "https://api.spotify.com/v1/artists/7jdky1zPhnZzjqLy4OMK12",
+                "id" : "7jdky1zPhnZzjqLy4OMK12",
+                "name" : "Kevin Shirley",
+                "type" : "artist",
+                "uri" : "spotify:artist:7jdky1zPhnZzjqLy4OMK12"
+              } ],
+              "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+              "disc_number" : 1,
+              "duration_ms" : 493626,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USAT20706802"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/7BrDCCqiUPhRrdqA1ZNasS"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/7BrDCCqiUPhRrdqA1ZNasS",
+              "id" : "7BrDCCqiUPhRrdqA1ZNasS",
+              "is_local" : false,
+              "name" : "Pull Me Under - 2007 Remix",
+              "popularity" : 26,
+              "preview_url" : "https://p.scdn.co/mp3-preview/15afde2474f7de755fc9435ff35874d021276459?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number" : 1,
+              "type" : "track",
+              "uri" : "spotify:track:7BrDCCqiUPhRrdqA1ZNasS"
+            }, {
+              "album" : {
+                "album_type" : "album",
+                "artists" : [ {
+                  "external_urls" : {
+                    "spotify" : "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+                  },
+                  "href" : "https://api.spotify.com/v1/artists/2aaLAng2L2aWD2FClzwiep",
+                  "id" : "2aaLAng2L2aWD2FClzwiep",
+                  "name" : "Dream Theater",
+                  "type" : "artist",
+                  "uri" : "spotify:artist:2aaLAng2L2aWD2FClzwiep"
+                } ],
+                "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/1Kzi6plI5f8WWo6nRTM1Uy"
+                },
+                "href" : "https://api.spotify.com/v1/albums/1Kzi6plI5f8WWo6nRTM1Uy",
+                "id" : "1Kzi6plI5f8WWo6nRTM1Uy",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/ab67616d0000b273636afec056f32ced30773b1c",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/ab67616d00001e02636afec056f32ced30773b1c",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/ab67616d00004851636afec056f32ced30773b1c",
+                  "width" : 64
+                } ],
+                "name" : "Live at Budokan",
+                "release_date" : "2004-10-05",
+                "release_date_precision" : "day",
+                "total_tracks" : 18,
+                "type" : "album",
+                "uri" : "spotify:album:1Kzi6plI5f8WWo6nRTM1Uy"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+                },
+                "href" : "https://api.spotify.com/v1/artists/2aaLAng2L2aWD2FClzwiep",
+                "id" : "2aaLAng2L2aWD2FClzwiep",
+                "name" : "Dream Theater",
+                "type" : "artist",
+                "uri" : "spotify:artist:2aaLAng2L2aWD2FClzwiep"
+              } ],
+              "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+              "disc_number" : 1,
+              "duration_ms" : 518176,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "USEE10412826"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/5Kce3r3OQsyo4QwIN8QpFY"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/5Kce3r3OQsyo4QwIN8QpFY",
+              "id" : "5Kce3r3OQsyo4QwIN8QpFY",
+              "is_local" : false,
+              "name" : "Pull Me Under - Live at Budokan Hall, Tokyo, Japan, 4/26/2004",
+              "popularity" : 24,
+              "preview_url" : "https://p.scdn.co/mp3-preview/93f5f95ecdbc54f20a1d039392c7f9e857029c2f?cid=774b29d4f13844c495f206cafdad9c86",
+              "track_number" : 17,
+              "type" : "track",
+              "uri" : "spotify:track:5Kce3r3OQsyo4QwIN8QpFY"
+            }, {
+              "album" : {
+                "album_type" : "single",
+                "artists" : [ {
+                  "external_urls" : {
+                    "spotify" : "https://open.spotify.com/artist/1QMgre3BHX161ZHtWMUu6S"
+                  },
+                  "href" : "https://api.spotify.com/v1/artists/1QMgre3BHX161ZHtWMUu6S",
+                  "id" : "1QMgre3BHX161ZHtWMUu6S",
+                  "name" : "Dimension",
+                  "type" : "artist",
+                  "uri" : "spotify:artist:1QMgre3BHX161ZHtWMUu6S"
+                } ],
+                "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/album/2FaVqm2TYNsX7OYHvytjJA"
+                },
+                "href" : "https://api.spotify.com/v1/albums/2FaVqm2TYNsX7OYHvytjJA",
+                "id" : "2FaVqm2TYNsX7OYHvytjJA",
+                "images" : [ {
+                  "height" : 640,
+                  "url" : "https://i.scdn.co/image/ab67616d0000b273432cb0130eb02727a2a08315",
+                  "width" : 640
+                }, {
+                  "height" : 300,
+                  "url" : "https://i.scdn.co/image/ab67616d00001e02432cb0130eb02727a2a08315",
+                  "width" : 300
+                }, {
+                  "height" : 64,
+                  "url" : "https://i.scdn.co/image/ab67616d00004851432cb0130eb02727a2a08315",
+                  "width" : 64
+                } ],
+                "name" : "Pull Me Under / Maschinen",
+                "release_date" : "2015-06-28",
+                "release_date_precision" : "day",
+                "total_tracks" : 3,
+                "type" : "album",
+                "uri" : "spotify:album:2FaVqm2TYNsX7OYHvytjJA"
+              },
+              "artists" : [ {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/1QMgre3BHX161ZHtWMUu6S"
+                },
+                "href" : "https://api.spotify.com/v1/artists/1QMgre3BHX161ZHtWMUu6S",
+                "id" : "1QMgre3BHX161ZHtWMUu6S",
+                "name" : "Dimension",
+                "type" : "artist",
+                "uri" : "spotify:artist:1QMgre3BHX161ZHtWMUu6S"
+              }, {
+                "external_urls" : {
+                  "spotify" : "https://open.spotify.com/artist/3rJPS8fYBokXpYw1mS9wr0"
+                },
+                "href" : "https://api.spotify.com/v1/artists/3rJPS8fYBokXpYw1mS9wr0",
+                "id" : "3rJPS8fYBokXpYw1mS9wr0",
+                "name" : "Raphaella",
+                "type" : "artist",
+                "uri" : "spotify:artist:3rJPS8fYBokXpYw1mS9wr0"
+              } ],
+              "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+              "disc_number" : 1,
+              "duration_ms" : 273103,
+              "explicit" : false,
+              "external_ids" : {
+                "isrc" : "GBUM71503104"
+              },
+              "external_urls" : {
+                "spotify" : "https://open.spotify.com/track/6MIPI4tSQtvWpzY7z3q4cz"
+              },
+              "href" : "https://api.spotify.com/v1/tracks/6MIPI4tSQtvWpzY7z3q4cz",
+              "id" : "6MIPI4tSQtvWpzY7z3q4cz",
+              "is_local" : false,
+              "name" : "Pull Me Under",
+              "popularity" : 46,
+              "preview_url" : null,
+              "track_number" : 1,
+              "type" : "track",
+              "uri" : "spotify:track:6MIPI4tSQtvWpzY7z3q4cz"
+            } ],
+            "limit" : 5,
+            "next" : "https://api.spotify.com/v1/search?query=pull+me+under&type=track&offset=5&limit=5",
+            "offset" : 0,
+            "previous" : null,
+            "total" : 238
+          }
+        }
+    http_version: null
+  recorded_at: Tue, 17 Mar 2020 19:58:26 GMT
+recorded_with: VCR 5.1.0
